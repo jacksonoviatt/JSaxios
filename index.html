@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <button id="randomButton">Do something random</button>
+    <div id="randomContainer">
+        
+    </div>
+    <br>
+    <form action="javascript:void(0)">
+        <label for="participants">Particpants</label>
+                <select id="participantsList" name="participantsList">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    
+                </select>
+                <input type="submit" id="participantButton">
+    </form>
+    <div id="participantsContainer"></div>
+    <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
+    <script src='/js/app.js'></script>
+</body>
+</html>
